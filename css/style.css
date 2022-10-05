@@ -1,0 +1,59 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* NAV BAR
+/*******************************************/
+nav, ul {
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  flex-basis: 60%;
+}
+
+nav span,nav button {
+  margin: 10px 0px;
+}
+
+/******************************************
+/* MAIN SECTION
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html {
+  font-size: 62.5%;
+  color: black;
+}
+body {
+  font-size: 1.5rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+nav span {
+  font-size: 3rem;
+  font-family: 'Passions Conflict', cursive;
+}
